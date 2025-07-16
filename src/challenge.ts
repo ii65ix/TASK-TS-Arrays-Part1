@@ -5,8 +5,10 @@
 // and returns the modified groceries list
 function deleteThirdItem(groceries: string[]): string[] {
   // write your code here...
-  return [];
+  groceries.splice(2); // Remove the third item (index 2)
+  return groceries;
 }
+
 
 // Step 2:
 // Write a insertItemAtBeginning function that inserts a new grocery item at the beginning of the groceries argument

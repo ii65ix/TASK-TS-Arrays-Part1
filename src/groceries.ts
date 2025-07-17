@@ -19,7 +19,6 @@ function getSecondGroceryItem(groceries: string[]): string {
 function getGroceriesCount(groceries: string[]): number {
   // write your code here...
   return groceries.length;
-  // replace zero with what you see is fit
 }
 
 // Step 4:
@@ -35,7 +34,6 @@ function getLastGroceryItem(groceries: string[]): string {
 function removeLastGroceryItem(groceries: string[]): string {
   // write your code here...
   const removedItem = groceries.pop(); // Remove and get the last item
-  
 
   if (removedItem === undefined) {
     throw new Error("No items to remove");
@@ -52,9 +50,9 @@ function addNewGroceries(
   itemTwo: string
 ): string[] {
   // write your code here...
-  groceries.push(itemOne, itemTwo); 
-    // Add two new items to the end of the array
-  
+  groceries.push(itemOne, itemTwo);
+  // Add two new items to the end of the array
+
   return groceries; // return the modified array
 }
 
